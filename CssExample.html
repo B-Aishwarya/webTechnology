@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web page</title>
+<style>
+    
+body {
+    background-color: powderblue;
+       background-image: url("E:\abc");
+      
+    }
+    #banner{
+        color: blueviolet;
+        font-size: 30px;
+    }
+    .new{
+         font-size: 40px;
+         padding: 50px 20px 10px 10px;
+    background-color: rosybrown;
+     color:red;
+     text-align: center;
+         border: 10px solid rgba(255, 0, 200, 0.603) ;
+         text-decoration: slateblue;
+         margin-left:30px ; 
+         margin-right: 50px;
+    
+     }
+     .box{
+         border: 10px solid rgb(199, 19, 109);
+         font-size: 40px;
+         padding: 50px 20px 10px 10px;
+         margin-left: 30px;
+         background-color: royalblue;
+         margin-right: 45px;
+        color: coral;
+         width: 300px;
+         text-align: center;
+         height: 100px;
+     }
+     .box1{
+         border:10px solid red;
+         font-size:30px;
+         background-color: seagreen;
+         margin-left: 200px;
+         padding: 50px;
+         display: inline;
+         color: red;
+         width: 50px;
+         margin :margin-bottom;
+         text-align: center;
+         height:50px;
+     }
+     
+     .new:hover{
+         color: greenyellow;
+         background-color: lightcoral;
+     }
+     .box:hover{
+         color: hotpink;
+         background-color: lightgreen;
+     }
+
+     box1:hover{
+         color: indigo;
+     }
+     .h1{
+    color: blue;
+     }
+     .hyper:link{
+      background-color: red;
+     }
+     .insta:visited{
+         background-color:green;
+     }
+     .insta:active{
+         text-decoration: none;
+     }
+     table,tr,th{
+         border: 2pz solid black;
+     }
+
+     tr:nth-child(even)hover{
+        background-color:rgb(105, 236, 105);  
+     }
+     tr:nth-child(odd):hover{
+        background-color:blueviolet;  
+     }
+     tr:hover{
+         background-color: chartreuse;
+     }
+     .comb{
+         color: darkgoldenrod;
+     }
+     /*div>p{
+         color: rgb(0, 17, 255);
+     }*/
+
+     /*div+p{
+         color: rgb(255, 0, 170);
+     }*/
+    
+     div~p{
+         color: rgb(255, 0, 170);
+     }
+    
+    .pos{
+      position: relative;
+      border: 2px solid black;  
+    }
+    .one{
+       /* position: relative;
+        bottom: 10px;*/
+        background-color: blueviolet;
+    }
+    .two{
+        /*position: relative;
+        bottom: 20px;*/
+        background-color: chartreuse;
+    }
+    .special{
+        position: absolute;
+        background-color: darkmagenta;
+        top: 20px;
+        
+    }
+    .button{
+        background-color: rgb(3, 54, 192);
+        color: rgb(243, 98, 224);
+        position: fixed;/*fixed means it will not change its postion if we scroll screen also*/
+        top:0;
+        margin-right: 580px;
+        right:0;
+        font-size: 30px;
+    }
+    ul{
+        margin: 0;
+        padding:0;
+        top: 0;
+        }
+    
+     li{
+         list-style-type: none;
+         background-color: rgb(105, 11, 105);
+         float: left; /*two print msg in single line*/
+         display: block;/*two print msg in multiple line*/
+     }
+     li a{
+         text-decoration: none;
+         padding: 10px; 
+         color: rgb(78, 125, 194);
+     }
+   p{
+    color: red;
+    }    
+</style>
+</head>
+<body>
+    <div>
+    <ul>
+        <li><a href="https://facebook.com"></a>facebook</li>
+        <li><a href="https://Instragram.com"></a>Instragram</li>
+        <li><a href="https://whatsap.com"></a>whatsap</li>
+        <li style="float: right;"><a href="https://whatsap.com"></a>Twitter</li>
+    <!--inline css-->
+    </ul>
+    </div><br>
+    <h1>This is web page </h1>
+    <form action=""  method="POST"> 
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Enter name" >     
+        </div>
+        <div><label>Email</label>
+            <input type="text "placeholder="Enter Email" >
+        </div>
+        <div class="banner">
+            Different selector - Class selector
+        </div>
+        <div id="banner">
+            Id selector
+        </div>
+        <div class="new"> CORONA 2.0 2021</div>
+        <div class="box">CORONA  2020</div>
+        <div class="box">   
+        <span class="box1"></div>
+        </span>
+       <br/>
+       <a class="hyper" href="">facebook</a>;
+       <a class="insta" href="">Instragram</a>;
+       <li><h2>Students Of Xworkz Omkar sir Batch</h2></li>
+       <table border="1">
+           <tr>
+               <th>Sl No</th>
+               <th colspan="2">Name</th>
+               <th >Adress</th>
+               <th>Contact No</th>
+               <th>Email</th>
+           </tr>
+           <tr><td>1</td>
+               <td rowspan="2">Aishwarya B</td>
+               <td>Laxmeshwar</td>
+               <td>9380957625</td>
+               <td>aishwaryasb777@gmail.com</td>
+           </tr>
+          <tr><td>2</td>
+           	<td>Vishalaxi </td>
+               <td>gadag</td>
+               <td>9087890987</td>
+               <td>vishalaxikp@gmail.com</td>
+           </tr>
+          <tr><td>3</td>
+          <td>Vena Kanavi</td> 
+               <td>Gojanur</td>
+               <td>8978987656</td>
+               <td>venakanavi@gmail.com</td>
+           </tr>
+           <tr><td>4</td>
+               <td>Priyank J</td> 
+               <td>Belatti</td>
+               <td>6787787656</td>
+               <td>priyank@gmail.com</td>
+           </tr><tr><td>5</td>
+               <td>Aishwarya M</td>
+               <td>Hubli</td>
+               <td>9867787656</td>
+               <td>aishwaryam@gmail.com</td>
+           </tr>
+           </table>
+    </form>
+    <!-- Descedant combinator-->
+    <div>
+    <p>Java developer</p>
+    <p>Web developer</p>
+    <h6>Python</h6>
+    <p>jee developer</p>
+    <span>
+    <p>sql developer</p>
+    </span>
+</div>
+<h4>child combinator</h4>
+<div>
+    <p>Java developer</p>
+    <p>Web developer</p>
+    <h6>Python</h6>
+    <p>jee developer</p>
+    <span>
+    <p>sql developer</p>
+    </span>
+</div>
+<!--adjacent sibling selector-->
+<p>Be prepared for mock</p>
+<p>when?</p>
+<div class="pos">
+<p class="one">Lorem ipsum dolor sit amet.</p>
+<p class="two">Lorem ipsum dolor sit amet.<span>this is span</span></p>
+<p class="special">This is span</p>
+<p class="button">Without Failures there is no meaning for Success..<br>Aishwarya SB</p>
+</div>
+</body>
+</html>
