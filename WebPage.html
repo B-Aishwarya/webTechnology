@@ -1,0 +1,87 @@
+<html>
+   <title >Survey Form </title>
+   <head>
+    <style>
+       body{
+           text-align: center;
+       }
+
+        .new{
+            background-color: rgb(143, 198, 214);
+            width: 650px;
+            height: 70px;
+            text-align: center;
+            font-size: 40px;
+            margin-left: 460px;
+            
+        }
+        li{
+            list-style-type: none;
+            background-color: black;
+        }
+        li a{
+           text-decoration: none;
+           padding: 10px;
+           display: block;
+        }
+
+        
+        
+    </style>
+   
+    <body>
+      <div>
+        <div class="new"> Survey Form</div>
+    </div> 
+        <h4> Let us know we can improve freeCodeCamp</h4>
+    <form action=""  method="POST"> 
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Enter name" >
+            
+        </div><br>
+
+        <div><label>Email</label>
+            <input type="text "placeholder="Enter Email" >
+        </div><br>
+        <div><label>Age</label>
+            <input type="text "placeholder="Enter Age" >
+        </div><br>
+        
+        <div>
+            <label>Which option best describes your current role</label><br>
+            <select>
+                <option value="">--select--</option>
+                <option>value="">Front end developer</option>
+                <option>value="">Full stack developer</option>
+                <option>value="">backend developer</option>
+               </select><br>
+        </div><br>
+        <div>
+            <label>How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="language" >Definitely<br>
+            <input type="radio" name="language">Maybe<br>
+            <input type="radio" name="language">Not sure<br>
+        </div><br>
+        
+        <div>
+            <label>What do you like more in FCC</label><br>
+            <select>  
+            <option>Select</option>
+            <option>Front end developer</option><br>
+            <option>Full stack developer</option><br>
+            <option>backend developer</option>
+        </select>
+        </div><br>
+
+        <div>
+            <label>Things that should be improved in the future (Check all that apply).</label><br>
+            <input type="radio" name="language" >Front end developer
+            <input type="radio" name="language">Full stack developer
+            <input type="radio" name="language">backend developer
+        </div><br>
+    </form>
+   
+</body>
+</head>
+</html>

@@ -133,25 +133,37 @@ body {
         font-size: 30px;
     }
     ul{
-        margin: 0;
+        width: 30%;
         padding:0;
-        top: 0;
+    
+        }
+
+        li{
+            list-style-type: none;
+            background-color: dodgerblue;
         }
     
-     li{
-         list-style-type: none;
-         background-color: rgb(105, 11, 105);
-         float: left; /*two print msg in single line*/
-         display: block;/*two print msg in multiple line*/
+     li:hover{
+        background-color: rgb(245, 51, 213);
+         font-size: 30px;
+        
      }
      li a{
          text-decoration: none;
          padding: 10px; 
-         color: rgb(78, 125, 194);
+         display: block;
+         color: darkviolet;
+     
      }
    p{
     color: red;
-    }    
+    }
+    @media screen and (min-width: 568px) {
+         body{
+             background-color: grey;
+         }
+        
+    }
 </style>
 </head>
 <body>
@@ -160,7 +172,7 @@ body {
         <li><a href="https://facebook.com"></a>facebook</li>
         <li><a href="https://Instragram.com"></a>Instragram</li>
         <li><a href="https://whatsap.com"></a>whatsap</li>
-        <li style="float: right;"><a href="https://whatsap.com"></a>Twitter</li>
+   <!--    <li style="float: right;"><a href="https://whatsap.com"></a>Twitter</li>--> 
     <!--inline css-->
     </ul>
     </div><br>
